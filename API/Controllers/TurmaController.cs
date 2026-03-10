@@ -1,6 +1,6 @@
-﻿using ApiHexagonal.Bussiness.DTOs;
-using ApiHexagonal.Bussiness.Entities;
-using ApiHexagonal.Bussiness.Interfaces.IServices;
+using ApiHexagonal.Application.DTOs;
+using ApiHexagonal.Domain.Entities;
+using ApiHexagonal.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiHexagonal.Api.Controllers
@@ -22,7 +22,7 @@ namespace ApiHexagonal.Api.Controllers
 
             if(Turma == null)
             {
-                return NotFound("Classe não Encontrado");
+                return NotFound("Classe n�o Encontrado");
             }
 
             return Ok(Turma);

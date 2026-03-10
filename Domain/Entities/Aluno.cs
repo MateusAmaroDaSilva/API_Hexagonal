@@ -1,7 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ApiHexagonal.Bussiness.Entities
+namespace ApiHexagonal.Domain.Entities
 {
     public class Aluno
     {

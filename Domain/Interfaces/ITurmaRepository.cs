@@ -1,6 +1,6 @@
-﻿using ApiHexagonal.Bussiness.Entities;
+using ApiHexagonal.Domain.Entities;
 
-namespace ApiHexagonal.Bussiness.Interfaces.IRepositories
+namespace ApiHexagonal.Domain.Interfaces
 {
     public interface ITurmaRepository
     {

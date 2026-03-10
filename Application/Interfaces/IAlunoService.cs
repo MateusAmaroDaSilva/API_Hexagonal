@@ -1,7 +1,7 @@
-﻿using ApiHexagonal.Bussiness.DTOs;
-using ApiHexagonal.Bussiness.Entities;
+using ApiHexagonal.Application.DTOs;
+using ApiHexagonal.Domain.Entities;
 
-namespace ApiHexagonal.Bussiness.Interfaces.IServices
+namespace ApiHexagonal.Application.Interfaces
 {
     public interface IAlunoService
     {

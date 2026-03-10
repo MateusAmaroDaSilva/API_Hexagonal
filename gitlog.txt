@@ -1,0 +1,58 @@
+commit f7cf6c74e1f91477ed104ea3fbaf1cf62c7b3eb0
+Author: MateusAmaroDaSilva <ericaeandre44@gmaill.com>
+Date:   Tue Mar 10 13:59:43 2026 -0300
+
+    ignore
+
+M	API/Controllers/AlunoController.cs
+M	API/Controllers/TurmaController.cs
+R074	Bussiness/DTOs/AlunoDTO.cs	Application/DTOs/AlunoDTO.cs
+R059	Bussiness/DTOs/TurmaDTO.cs	Application/DTOs/TurmaDTO.cs
+R063	Bussiness/Interfaces/IServices/IAlunoService.cs	Application/Interfaces/IAlunoService.cs
+R059	Bussiness/Interfaces/IServices/ITurmaService.cs	Application/Interfaces/ITurmaService.cs
+R094	Bussiness/Services/AlunoService.cs	Application/Services/AlunoService.cs
+R088	Bussiness/Services/TurmaService.cs	Application/Services/TurmaService.cs
+R086	Bussiness/Entities/Aluno.cs	Domain/Entities/Aluno.cs
+R081	Bussiness/Entities/Turma.cs	Domain/Entities/Turma.cs
+R071	Bussiness/Interfaces/IRepositories/IAlunoRepository.cs	Domain/Interfaces/IAlunoRepository.cs
+R062	Bussiness/Interfaces/IRepositories/ITurmaRepository.cs	Domain/Interfaces/ITurmaRepository.cs
+R092	Data/Contexts/Context.cs	Infrastructure/Data/Context.cs
+R089	Data/Repositories/AlunoRepository.cs	Infrastructure/Repositories/AlunoRepository.cs
+R084	Data/Repositories/TurmaRepository.cs	Infrastructure/Repositories/TurmaRepository.cs
+M	Migrations/20260310011722_ADFs_Migration.Designer.cs
+M	Migrations/20260310011722_ADFs_Migration.cs
+M	Migrations/ContextModelSnapshot.cs
+M	Program.cs
+A	rebase_editor.ps1
+
+commit ff214954d912267fc943a6f9fe778887a24b858d
+Author: MateusAmaroDaSilva <ericaeandre44@gmaill.com>
+Date:   Tue Mar 10 13:12:13 2026 -0300
+
+    Create README.md for Swagger and Database Prints
+
+A	FotosPOSTMAN-SWAGGER/README.md
+
+commit 493b0d4f0f1560aedbefcc1c68e5c7f3fcc9b60a
+Author: MateusAmaroDaSilva <ericaeandre44@gmaill.com>
+Date:   Tue Mar 10 13:08:41 2026 -0300
+
+    Update README.md with imagens and Swagger flow definitions
+
+M	README.md
+
+commit ddcfe330f4e0cdb276ef2809b86ac1dd9daa8f87
+Author: MateusAmaroDaSilva <ericaeandre44@gmaill.com>
+Date:   Tue Mar 10 13:08:11 2026 -0300
+
+    Adicionar print da criacao de Turmas no Swagger
+
+A	FotosPOSTMAN-SWAGGER/Turma-PostClasses.jpeg
+
+commit c7fb066d02979dec2fd03a3b9fca097d9bdf7d17
+Author: MateusAmaroDaSilva <ericaeandre44@gmaill.com>
+Date:   Tue Mar 10 13:08:10 2026 -0300
+
+    Adicionar print da listagem de Turmas no Swagger
+
+A	FotosPOSTMAN-SWAGGER/Turma-ListClasses.jpeg

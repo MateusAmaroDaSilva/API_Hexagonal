@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
-namespace ApiHexagonal.Bussiness.DTOs
+namespace ApiHexagonal.Application.DTOs
 {
     public class TurmaDTO
     {

@@ -1,9 +1,9 @@
-﻿using ApiHexagonal.Bussiness.Entities;
+using ApiHexagonal.Domain.Entities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ApiHexagonal.Data.Contexts
+namespace ApiHexagonal.Infrastructure.Data
 {
     public class Context : DbContext
     {

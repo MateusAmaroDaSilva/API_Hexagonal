@@ -1,9 +1,8 @@
-﻿using ApiHexagonal.Bussiness.DTOs;
-using ApiHexagonal.Bussiness.Entities;
-using ApiHexagonal.Bussiness.Interfaces.IRepositories;
-using ApiHexagonal.Bussiness.Interfaces.IServices;
-
-namespace ApiHexagonal.Bussiness.Services
+using ApiHexagonal.Application.DTOs;
+using ApiHexagonal.Application.Interfaces;
+using ApiHexagonal.Domain.Entities;
+using ApiHexagonal.Domain.Interfaces;
+namespace ApiHexagonal.Application.Services
 {
     public class TurmaService : ITurmaService
     {

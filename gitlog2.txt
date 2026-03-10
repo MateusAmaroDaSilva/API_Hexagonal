@@ -1,0 +1,39 @@
+f7cf6c7 ignore
+M	API/Controllers/AlunoController.cs
+M	API/Controllers/TurmaController.cs
+R074	Bussiness/DTOs/AlunoDTO.cs	Application/DTOs/AlunoDTO.cs
+R059	Bussiness/DTOs/TurmaDTO.cs	Application/DTOs/TurmaDTO.cs
+R063	Bussiness/Interfaces/IServices/IAlunoService.cs	Application/Interfaces/IAlunoService.cs
+R059	Bussiness/Interfaces/IServices/ITurmaService.cs	Application/Interfaces/ITurmaService.cs
+R094	Bussiness/Services/AlunoService.cs	Application/Services/AlunoService.cs
+R088	Bussiness/Services/TurmaService.cs	Application/Services/TurmaService.cs
+R086	Bussiness/Entities/Aluno.cs	Domain/Entities/Aluno.cs
+R081	Bussiness/Entities/Turma.cs	Domain/Entities/Turma.cs
+R071	Bussiness/Interfaces/IRepositories/IAlunoRepository.cs	Domain/Interfaces/IAlunoRepository.cs
+R062	Bussiness/Interfaces/IRepositories/ITurmaRepository.cs	Domain/Interfaces/ITurmaRepository.cs
+R092	Data/Contexts/Context.cs	Infrastructure/Data/Context.cs
+R089	Data/Repositories/AlunoRepository.cs	Infrastructure/Repositories/AlunoRepository.cs
+R084	Data/Repositories/TurmaRepository.cs	Infrastructure/Repositories/TurmaRepository.cs
+M	Migrations/20260310011722_ADFs_Migration.Designer.cs
+M	Migrations/20260310011722_ADFs_Migration.cs
+M	Migrations/ContextModelSnapshot.cs
+M	Program.cs
+A	rebase_editor.ps1
+ff21495 Create README.md for Swagger and Database Prints
+A	FotosPOSTMAN-SWAGGER/README.md
+493b0d4 Update README.md with imagens and Swagger flow definitions
+M	README.md
+ddcfe33 Adicionar print da criacao de Turmas no Swagger
+A	FotosPOSTMAN-SWAGGER/Turma-PostClasses.jpeg
+c7fb066 Adicionar print da listagem de Turmas no Swagger
+A	FotosPOSTMAN-SWAGGER/Turma-ListClasses.jpeg
+dc76701 Adicionar print do funcionamento do banco de dados no Xampp
+A	FotosPOSTMAN-SWAGGER/Banco-de-dados-Xampp.jpeg
+c781873 Adicionar print de teste da regra de dominio do email no Swagger
+A	FotosPOSTMAN-SWAGGER/Aluno-PostAluno@faculdade.edu.jpeg
+1784c99 Adicionar print de criação de Aluno no Swagger
+A	FotosPOSTMAN-SWAGGER/Aluno-Post-Aluno.jpeg
+3f4dc7b Adicionar print de Listagem de Alunos no Swagger
+A	FotosPOSTMAN-SWAGGER/Aluno-ListaAluno.jpeg
+7163906 Adicionar print de Get Aluno por ID no Swagger
+A	FotosPOSTMAN-SWAGGER/Aluno-GetAluno-1.jpeg

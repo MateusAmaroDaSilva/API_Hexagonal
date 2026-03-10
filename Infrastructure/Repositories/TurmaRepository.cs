@@ -1,10 +1,10 @@
-﻿using ApiHexagonal.Bussiness.Entities;
-using ApiHexagonal.Bussiness.Interfaces.IRepositories;
-using ApiHexagonal.Data.Contexts;
+using ApiHexagonal.Domain.Entities;
+using ApiHexagonal.Domain.Interfaces;
+using ApiHexagonal.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.ConstrainedExecution;
 
-namespace ApiHexagonal.Data.Repositories
+namespace ApiHexagonal.Infrastructure.Repositories
 {
     public class TurmaRepository : ITurmaRepository
     {

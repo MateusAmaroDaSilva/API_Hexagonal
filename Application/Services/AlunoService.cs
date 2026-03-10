@@ -1,9 +1,9 @@
-﻿using ApiHexagonal.Bussiness.DTOs;
-using ApiHexagonal.Bussiness.Entities;
-using ApiHexagonal.Bussiness.Interfaces.IRepositories;
-using ApiHexagonal.Bussiness.Interfaces.IServices;
+using ApiHexagonal.Application.DTOs;
+using ApiHexagonal.Application.Interfaces;
+using ApiHexagonal.Domain.Entities;
+using ApiHexagonal.Domain.Interfaces;
 
-namespace ApiHexagonal.Bussiness.Services
+namespace ApiHexagonal.Application.Services
 {
     public class AlunoService : IAlunoService
     {

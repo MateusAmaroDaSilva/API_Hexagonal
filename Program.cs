@@ -1,8 +1,8 @@
-﻿using ApiHexagonal.Bussiness.Interfaces.IRepositories;
-using ApiHexagonal.Bussiness.Interfaces.IServices;
-using ApiHexagonal.Bussiness.Services;
-using ApiHexagonal.Data.Contexts;
-using ApiHexagonal.Data.Repositories;
+using ApiHexagonal.Domain.Interfaces;
+using ApiHexagonal.Application.Interfaces;
+using ApiHexagonal.Application.Services;
+using ApiHexagonal.Infrastructure.Data;
+using ApiHexagonal.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
