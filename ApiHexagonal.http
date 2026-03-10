@@ -1,0 +1,6 @@
+@ApiHexagonal_HostAddress = http://localhost:5201
+
+GET {{ApiHexagonal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
